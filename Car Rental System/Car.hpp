@@ -5,12 +5,13 @@
 #include <vector>
 
 struct car{
-    car(int, std::string, std::string, std::string, int);
+    std::string id;
+    car(std::string, std::string, std::string, std::string, int);
     car(std::string, std::string, std::string, int);
     void print_info();
 private:
     std::string make, model, color;
-    int year, id;
+    int year;
 };
 
 #endif /* Car_hpp */

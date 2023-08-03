@@ -7,8 +7,8 @@
 struct car{
     std::string id;
     car(std::string, std::string, std::string, std::string, int);
-    car(std::string, std::string, std::string, int);
     void print_info();
+    bool operator<(const car&)const;
 private:
     std::string make, model, color;
     int year;

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D8E496FA2A78443F001F3B4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8E496F92A78443F001F3B4F /* main.cpp */; };
 		D8E497022A784AB4001F3B4F /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8E497002A784AB4001F3B4F /* Car.cpp */; };
+		D8E497082A7B80D5001F3B4F /* Car_Rental.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8E497062A7B80D5001F3B4F /* Car_Rental.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		D8E496F92A78443F001F3B4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D8E497002A784AB4001F3B4F /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
 		D8E497012A784AB4001F3B4F /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
+		D8E497062A7B80D5001F3B4F /* Car_Rental.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car_Rental.cpp; sourceTree = "<group>"; };
+		D8E497072A7B80D5001F3B4F /* Car_Rental.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car_Rental.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				D8E496F92A78443F001F3B4F /* main.cpp */,
 				D8E497002A784AB4001F3B4F /* Car.cpp */,
 				D8E497012A784AB4001F3B4F /* Car.hpp */,
+				D8E497062A7B80D5001F3B4F /* Car_Rental.cpp */,
+				D8E497072A7B80D5001F3B4F /* Car_Rental.hpp */,
 			);
 			path = "Car Rental System";
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8E497022A784AB4001F3B4F /* Car.cpp in Sources */,
+				D8E497082A7B80D5001F3B4F /* Car_Rental.cpp in Sources */,
 				D8E496FA2A78443F001F3B4F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

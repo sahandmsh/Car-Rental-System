@@ -98,7 +98,7 @@ void Car_Rental:: make_invoice(std::string car_id, std::pair <int , int> d){
     time_t timetoday;
     time (&timetoday);
     std::cout<< asctime(localtime(&timetoday));
-    std::cout<<"Invoice number:  "<<d.first<<car_id<<std::endl;
+    std::cout<<"Invoice number: "<<d.first<<car_id<<std::endl;
     for (auto i:car_list){
         for (auto j:i.second){
             if (j.id == car_id){

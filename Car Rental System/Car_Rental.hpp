@@ -10,8 +10,6 @@
 #include <ctime>
 #include <sstream>
 #include "Car.hpp"
-//using namespace std;
-
 class Car_Rental{
     std::map < std::string , std::vector<car> > car_list;
     std::vector <std::string> car_id_list;

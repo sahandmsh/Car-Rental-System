@@ -17,7 +17,7 @@ using namespace std;
 
 
 int main(){
-    Car_Rental ABC;
+    Car_Rental ABC; //creating ABC car rental object
     ABC.add_car ("M", "Lexus", "ES350", "Red", 2021);
     ABC.add_car ("F", "Toyota", "Avalon", "White", 2023);
     ABC.add_car ("M", "Honda", "Accord", "Silver", 2022);
@@ -33,6 +33,8 @@ int main(){
     ABC.add_car ("T", "Ford", "F150", "Black", 2022);
     ABC.add_car ("M", "Kia", "K5", "Grey", 2023);
     ABC.add_car ("S", "Nissan", "Rogue", "red", 2020);
-    
-    ABC.customer_request();
+    ABC.add_car ("S", "Toyota", "Rav4", "Brown", 2023);
+    ABC.add_car ("F", "Nissan", "Maxima", "Blue", 2023);
+    ABC.customer_request();// getting a request from customer
+    //(from/to date, and desired car from available car list)
 }

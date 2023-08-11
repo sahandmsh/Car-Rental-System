@@ -1,6 +1,7 @@
 #include "Car_Rental.hpp"
 Car_Rental::Car_Rental(){
-    // Default values for price/day; can be changed at any time
+    // Default values for price/day for different car types
+    // compact sedan, mid-size sedan, full-size sedan, SUV, Truck
     car_price['C'] = 30.33;
     car_price['M'] = 45.66;
     car_price['F'] = 60.5;

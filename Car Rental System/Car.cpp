@@ -8,7 +8,8 @@ void car::print_info(){
     
 }
 
-//The following operator overloading is performed in case that the car object is used as a map key because the (ordered) map needs the operator < to compare and sort keys!
+//The following operator overloading is performed in case that the car object is used
+//as a map key because the (ordered) map needs the operator < to compare and sort keys!
 bool car::operator<(const car& c) const
     {
         return (this->id < c.id);

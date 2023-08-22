@@ -14,9 +14,10 @@ To store car information, a structure named "car" is defined. For managing car r
 is defined. The "add_car" method is used to enter the information of a new car into the system. The method "customer_request" is used to get an order from the customer. 
 Below you can see an example of the code execution.
 
-![Screenshot 2023-08-21 at 12 35 13 PM](https://github.com/sahandmsh/Car-Rental-System/assets/82970651/e0a0b2a2-63d2-4302-8db2-c869b632da33)
+![262135853-e0a0b2a2-63d2-4302-8db2-c869b632da33](https://github.com/sahandmsh/Car-Rental-System/assets/82970651/58dfbca9-23bc-4634-beb0-f3304146f19c)
 
-![Screenshot 2023-08-21 at 12 37 50 PM](https://github.com/sahandmsh/Car-Rental-System/assets/82970651/f9ba5a80-39f3-4e58-bc18-ae8d712c533e)
+![Screenshot 2023-08-21 at 12 37 50 PM](https://github.com/sahandmsh/Car-Rental-System/assets/82970651/428a6069-7e10-409d-a9ed-a231876b547f)
 
-![Screenshot 2023-08-21 at 12 40 34 PM](https://github.com/sahandmsh/Car-Rental-System/assets/82970651/62acc417-53f3-442a-8e75-2de13ed7aff3)
+![Screenshot 2023-08-21 at 12 40 34 PM](https://github.com/sahandmsh/Car-Rental-System/assets/82970651/7dadf1b8-94c9-4938-b897-7a7f48d9e3e9)
+
 
